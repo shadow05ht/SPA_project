@@ -1,0 +1,61 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: orangered;
+    position: sticky;
+    top: 0;
+    scroll-behavior: smooth;
+}
+a{
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 0 7px;
+}
+section{
+    height: calc(100vh - 50px);
+    scroll-margin-top: 50px;
+}
+#home{
+    background-color: orange;
+}
+#gallery{
+    background-color: skyblue;
+}
+#about{
+    background-color: yellow;
+}
+#contact{
+    background-color: lime;
+}
+.payiz{
+    height: 400px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(payiz.jpg);
+}
+.qis{
+    height: 400px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(qis.jpg);
+}
+.yay{
+    height: 400px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(yay.jpg);
+}
+.bahar{
+    height: 400px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(bahar.jpg);
+}
