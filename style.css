@@ -32,6 +32,7 @@ section{
     background-color: lime;
 }
 .payiz{
+    margin: auto;
     height: 400px;
     width: 400px;
     background-position: center;
@@ -39,6 +40,7 @@ section{
     background-image: url(payiz.jpg);
 }
 .qis{
+    margin: auto;
     height: 400px;
     width: 400px;
     background-position: center;
@@ -46,6 +48,7 @@ section{
     background-image: url(qis.jpg);
 }
 .yay{
+    margin: auto;
     height: 400px;
     width: 400px;
     background-position: center;
@@ -53,9 +56,13 @@ section{
     background-image: url(yay.jpg);
 }
 .bahar{
+    margin: auto;
     height: 400px;
     width: 400px;
     background-position: center;
     background-size: cover;
     background-image: url(bahar.jpg);
+}
+h1{
+    text-align: center;
 }
