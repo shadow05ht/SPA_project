@@ -1,37 +1,46 @@
-html,body{
+html,
+body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
-nav{
+
+nav {
     background-color: orangered;
     position: sticky;
     top: 0;
     scroll-behavior: smooth;
 }
-a{
+
+a {
     line-height: 50px;
     color: white;
     text-decoration: none;
     padding: 0 7px;
 }
-section{
+
+section {
     height: calc(100vh - 50px);
     scroll-margin-top: 50px;
 }
-#home{
+
+#home {
     background-color: orange;
 }
-#gallery{
+
+#gallery {
     background-color: skyblue;
 }
-#about{
+
+#about {
     background-color: yellow;
 }
-#contact{
+
+#contact {
     background-color: lime;
 }
-.payiz{
+
+.payiz {
     margin: auto;
     height: 400px;
     width: 400px;
@@ -39,7 +48,8 @@ section{
     background-size: cover;
     background-image: url(payiz.jpg);
 }
-.qis{
+
+.qis {
     margin: auto;
     height: 400px;
     width: 400px;
@@ -47,7 +57,8 @@ section{
     background-size: cover;
     background-image: url(qis.jpg);
 }
-.yay{
+
+.yay {
     margin: auto;
     height: 400px;
     width: 400px;
@@ -55,7 +66,8 @@ section{
     background-size: cover;
     background-image: url(yay.jpg);
 }
-.bahar{
+
+.bahar {
     margin: auto;
     height: 400px;
     width: 400px;
@@ -63,7 +75,8 @@ section{
     background-size: cover;
     background-image: url(bahar.jpg);
 }
-h1{
+
+h1 {
     text-align: center;
 
 }
