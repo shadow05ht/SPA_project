@@ -14,6 +14,7 @@ nav {
     position: sticky;
     top: 0;
     scroll-behavior: smooth;
+    z-index:2;
 }
 
 a {
@@ -125,7 +126,7 @@ section {
     content: 'YAY';
     text-align: center;
     color: white;
-    line-height: 150px;
+    line-height: 200px;
     background-color: black;
     position: absolute;
     top: 0;
@@ -153,6 +154,7 @@ section {
     width: 400px;
     border-radius: 10px;
     cursor: pointer;
+    padding: 10px;
 }
 
 .bahar::before{
@@ -182,4 +184,5 @@ h1 {
     background-color: black;
     color: gold;
 }
+
 
